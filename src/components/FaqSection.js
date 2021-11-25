@@ -4,10 +4,13 @@ import { About } from "../styles";
 import Toggle from "./Toggle";
 //Detects if layout is changed and then animates it
 import { AnimateSharedLayout } from "framer-motion";
+import { fade } from "../Animation";
+import { useScroll } from "./useScroll";
 
 const FaqSection = () => {
+  const [element, controls] = useScroll();
   return (
-    <Faq>
+    <Faq ref={element} variants={fade} animate={controls} initial="hidden">
       <h2>
         Any Questions <span>FAQ</span>
       </h2>
