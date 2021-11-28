@@ -12,6 +12,7 @@ import { Switch, Route, useLocation } from "react-router-dom";
 //Animation
 //Allows component to animate out when they are removed from the react tree
 import { AnimatePresence } from "framer-motion";
+
 function App() {
   //Returns an object with a key of the page we're on
   //The key needs to be passed to AnimatePresence

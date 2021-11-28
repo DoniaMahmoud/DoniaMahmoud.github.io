@@ -21,7 +21,7 @@ const ContactUs = () => {
         <Hide>
           <Social variants={titleAnimation}>
             <Circle />
-            <h2>Send Us A Message</h2>
+            <h2>Send us a Message</h2>
           </Social>
         </Hide>
         <Hide>
