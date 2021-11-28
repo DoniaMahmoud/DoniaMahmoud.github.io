@@ -20,7 +20,7 @@ export const Description = styled.div`
   z-index: 2;
   padding-right: 5rem;
   h2 {
-    font-weight: lighter;
+    font-weight: normal;
   }
   @media (max-width: 1300px) {
     padding: 0;
